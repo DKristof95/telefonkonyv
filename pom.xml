@@ -62,6 +62,17 @@
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.webjars.npm</groupId>
+      <artifactId>vue</artifactId>
+      <version>3.3.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.npm</groupId>
+      <artifactId>vue__compiler-sfc</artifactId>
+      <version>3.3.4</version>
+    </dependency>
+
   </dependencies>
   <build>
     <plugins>
@@ -118,6 +129,7 @@
           </systemPropertyVariables>
         </configuration>
       </plugin>
+
     </plugins>
   </build>
   <profiles>
